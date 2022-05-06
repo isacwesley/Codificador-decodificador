@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="imagem/png" href="img/Top.svg">
+	<title>Alura - Decodificador</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+</head>
+<body>
+	<div id="container-geral">
+		<div id="container-header">
+			<header class="nao-selecionar">
+				<h1><img src="img/Top.svg"></h1>
+			</header>
+		</div>
+
+		<div id="container-main" class="nao-selecionar">
+			<section id="container-entrada">
+				<textarea class="entradaTexto" placeholder="Digite o seu texto" title="Apenas letras minúsculas e sem acento."></textarea>
+				<div class="entrada-bottom">
+					<div class="mensagem-alerta cursor-default">
+						<span class="material-symbols-rounded">
+							error
+						</span>
+						<p>Apenas letras minúsculas e sem acento.</p>
+					</div>
+					
+					<div class="botoes">
+						<div id="criptografar" class="botao1 cursor-pointer">
+							<p>Criptografar</p>
+						</div>
+						<div id="descriptografar" class="botao2 cursor-pointer">
+							<p>Descriptografar</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="container-saida">
+				<div class="align-middle cursor-default exclui-texto nao-selecionar">
+					<img src="img/high-quality-products.svg">
+					<p class="mensagem-principal">Nenhuma mensagem encontrada</p>
+					<p class="mensagem-secundaria">Digite um texto que você deseja criptografar ou descriptografar</p>
+				</div>
+				
+					<p class="mostra-texto"></p>
+					<div class="botao-right nao-selecionar">
+						<div id="botao-bottom" class="botao2 cursor-pointer">
+							<p class="copiar">Copiar</p>
+						</div>
+					</div>
+			</section>
+		</div>
+	</div>
+	<div id="container-footer">
+		<footer class="nao-selecionar">
+			<img src="img/Picsart_22-04-24_18-01-58-811.png">
+			<div class="links">
+				<a href="https://github.com/isacwesley" target="_blank"><img src="img/001-github.png"></a>
+				<a href="https://www.instagram.com/invites/contact/?i=1scltvtvxrqqw&utm_content=ajncczw" target="_blank"><img src="img/002-instagram.png"></a>
+				<a href="https://api.whatsapp.com/send?phone=5598985277525" target="_blank"><img src="img/003-whatsapp.png"></a>
+			</div>
+			<span class="cursor-default">&#169; 2022 ISAC WESLEY</span>
+		</footer>
+	</div>
+	<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+	<script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>
