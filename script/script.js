@@ -34,7 +34,6 @@ criptografar.onclick = function() {
 	mostraTexto.classList.add('visibilidade-true');
 	botaoRight.classList.add('visibilidade-true')
 	p.textContent = "Copiar";
-	console.log(texto);
 }
 
 descriptografar.onclick = function() {
